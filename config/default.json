@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://siliconvalley:pooperzzz_online@siliconvalley-lntmh.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://siliconvalley:HnvEXR2AKLu7NQs@siliconvalley-lntmh.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "GTz775THrE]VfdYXqj+tAX<8Q/Wv.LQaaV@5NK{?"
 }
