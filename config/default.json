@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://siliconvalley:HnvEXR2AKLu7NQs@siliconvalley-lntmh.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "GTz775THrE]VfdYXqj+tAX<8Q/Wv.LQaaV@5NK{?",
-  "githubClientId":"567effd60871504dcc01",
-  "githubClientSecret":"89e3789de154441626a1710e22f24c716bffacc0"
-}
