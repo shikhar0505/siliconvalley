@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Spinner from '../layout/Spinner';
+import PostForm from './PostForm';
 import PostItem from './PostItem';
 import { getPosts } from '../../actions/post';
 
@@ -13,11 +14,11 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
   return (
     loading ? <Spinner /> : (
       <Fragment>
-        <h1 className="large text-primary">Possts</h1>
+        <h1 className="large text-primary">Posts</h1>
         <p className="lead">
           <i className="fas fa-user"></i> Welcome to the community
         </p>
-        { /* PostForm */ }
+        <PostForm />
         <div className="posts">
           {
             posts.map(post => (
